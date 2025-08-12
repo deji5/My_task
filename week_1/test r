@@ -1,0 +1,31 @@
+# age = int(input("Enter your age: "))
+# print( f"you will be {age + 1} years old next year.")
+# num1 = float(input("Enter first number: "))
+# num2 = float(input("Enter second number: "))
+# sum_result = num1 + num2
+# print(f"the sum of {num1} and {num2} is {sum_result}.")
+# print("welcome customer") 
+print("Welcome to USSD Banking")
+num1 = print("1. check account")
+num2 = print("2. Airtime and Data")
+num3 = print("3. card")
+num4 = print("4. transfer")
+num5 = print("5. register")
+num6 = print("6. next")
+order = int(input("please enter your number: "))
+
+
+if order == 1:{
+    print("Check account")
+    
+    }
+if order == 2:{
+    print("Airtime and data")
+    
+    }
+if order == 3:{
+    print("card")
+    
+    
+}
+print("please,type in your pin")
