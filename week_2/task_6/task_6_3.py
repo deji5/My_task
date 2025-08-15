@@ -1,0 +1,5 @@
+seats  = set(range(1,50))
+print("available seat:", seats)
+seat = int(input("enter seet num"))
+seats.remove(seat)
+print(seats)

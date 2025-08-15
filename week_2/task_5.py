@@ -40,7 +40,7 @@ print(listshop)
 shopping_tuple =tuple(listshop)
 print("|".join(shopping_tuple))
 
-Task 6
+#Task 6
 weeks = ("monday", "tuesday", "wednessday", "thursday", "friday", "saturday", "sunday")
 print(type(weeks))
 name = input("enter student name")
