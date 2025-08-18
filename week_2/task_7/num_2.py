@@ -1,6 +1,7 @@
 chewing_gum_price = float(input("enter price of chewing gum"))
 rice_price = float(input("enter price of rice"))
 ice_cream_price = float(input("ice cream price"))
+items = ["chewing gum","rice","ice cream"]
 price = {
     "chewing gum" : chewing_gum_price,
     "rice": rice_price,
