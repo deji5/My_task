@@ -15,7 +15,7 @@ while True:
         print("4. Buy data")
         print("5. Exit")
         try:    
-            option = (input("enter choice: "))
+            option = int(input("enter choice: "))
             if option == "1":
                 print(f"Your balance is:{balance}")
                 break
